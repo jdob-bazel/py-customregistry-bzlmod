@@ -1,0 +1,5 @@
+module(
+    name = "greeting",
+    version = "2.0",
+    compatibility_level = 1,
+)

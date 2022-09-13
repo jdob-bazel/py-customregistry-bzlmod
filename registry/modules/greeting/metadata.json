@@ -1,8 +1,9 @@
 {
-    "homepage": "http://localhost",
+    "homepage": "https://github.com/jdob-bazel/py-customregistry-bzlmod",
     "maintainers": [],
     "versions": [
-        "1.0"
+        "1.0",
+        "2.0"
     ],
     "yanked_versions": {}
 }
