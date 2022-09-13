@@ -1,0 +1,2 @@
+bazelisk build --experimental_enable_bzlmod --registry file:///Users/jdob/Code/jdob-bazel-org/bzlmod-local-registry/registry --registry https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main //:client
+
