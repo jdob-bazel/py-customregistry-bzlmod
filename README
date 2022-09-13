@@ -1,2 +1,4 @@
-bazelisk build --experimental_enable_bzlmod --registry file:///Users/jdob/Code/jdob-bazel-org/bzlmod-local-registry/registry --registry https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main //:client
-
+export USE_BAZEL_VERSION=last_green
+export BCR=https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main
+export JDOB=https://raw.githubusercontent.com/jdob-bazel/py-customregistry-bzlmod/main/registry
+bazel build --experimental_enable_bzlmod --registry $BCR --registry $JDOB //:client
